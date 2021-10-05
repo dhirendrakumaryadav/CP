@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int w;
+    cout<<"enter the weight of watermelon:"<<endl;
+    cin>>w;
+    if(w%2==0&&w>0)
+    {
+        cout<<"yes"<<endl;
+
+    }
+    else
+    {
+        cout<<"no"<<endl;
+    }
+}
